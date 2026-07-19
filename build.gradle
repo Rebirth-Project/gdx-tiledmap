@@ -16,11 +16,7 @@
 
 plugins {
     id 'java-library'
-    id 'maven-publish'
 }
-
-group = 'it.rebirthproject'
-version = '1.0.0'
 
 java {
     toolchain {
@@ -44,12 +40,4 @@ dependencies {
 
 test {
     useJUnitPlatform()
-}
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-        }
-    }
 }
