@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright 2011 See ORIGINAL-AUTHORS-AND-CONTRIBUTORS.md.
+ * Copyright 2011 See ORIGINAL-AUTHORS and ORIGINAL-CONTRIBUTORS.
  * Copyright 2026 Andrea Paternesi and Mustafa Rasheed
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
