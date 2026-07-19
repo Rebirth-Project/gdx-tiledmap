@@ -16,6 +16,10 @@ repositories {
     mavenCentral()
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs.add("-Xlint:unchecked")
+}
+
 dependencies {
     api "com.badlogicgames.gdx:gdx:1.14.2"
     testImplementation "org.junit.jupiter:junit-jupiter:6.1.1"
