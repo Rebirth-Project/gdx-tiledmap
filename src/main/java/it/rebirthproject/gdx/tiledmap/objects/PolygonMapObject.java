@@ -1,5 +1,6 @@
 /**
  * 
+ * Copyright 2026 Andrea Paternesi
  */
 
 package it.rebirthproject.gdx.tiledmap.objects;
