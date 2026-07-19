@@ -3,7 +3,7 @@ package it.rebirthproject.gdx.tiledmap.tiled;
 
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.maps.ImageResolver;
+import it.rebirthproject.gdx.tiledmap.ImageResolver;
 import it.rebirthproject.gdx.tiledmap.tiled.tiles.StaticTiledMapTile;
 import com.badlogic.gdx.utils.ObjectMap;
 import org.junit.Rule;
