@@ -36,7 +36,11 @@ tasks.withType(JavaCompile).configureEach {
 
 dependencies {
     api "com.badlogicgames.gdx:gdx:1.14.2"
+
+    testImplementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:1.14.2"
     testImplementation "org.junit.jupiter:junit-jupiter:6.1.1"
+
+    testRuntimeOnly "com.badlogicgames.gdx:gdx-platform:1.14.2:natives-desktop"
     testRuntimeOnly "org.junit.platform:junit-platform-launcher:6.1.1"
 }
 
