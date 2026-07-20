@@ -23,7 +23,7 @@ jobs:
       - name: Gradle Info
         run: ./gradlew -version
       - name: Build with Gradle
-        run: ./gradlew publish --tests "it.rebirthproject.gdx.tiledmap.tiled.TmxMapLoaderPathResolutionTest"
+        run: ./gradlew test --tests "it.rebirthproject.gdx.tiledmap.tiled.TmxMapLoaderPathResolutionTest" && ./gradlew publish -x test
         env:
             ORG_GRADLE_PROJECT_sonatypeTokenPassword: ${{ secrets.SONATYPE_TOKEN_PASSWORD }}
             ORG_GRADLE_PROJECT_sonatypeTokenUsername: ${{ secrets.SONATYPE_TOKEN_USERNAME }}
