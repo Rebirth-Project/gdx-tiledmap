@@ -23,5 +23,5 @@ jobs:
       - name: Gradle Info
         run: ./gradlew -version
       - name: Build with Gradle
-        run: ./gradlew clean build
+        run: ./gradlew clean build --tests "it.rebirthproject.gdx.tiledmap.tiled.TmxMapLoaderPathResolutionTest"
   
